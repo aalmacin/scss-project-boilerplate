@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile-css": "npx sass stylesheets/main.scss style/main.css"
+    "start": "live-server",
+    "compile-css": "node-sass stylesheets/main.scss style/main.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "live-server": "^1.2.1",
     "node-sass": "^4.12.0"
   }
 }
